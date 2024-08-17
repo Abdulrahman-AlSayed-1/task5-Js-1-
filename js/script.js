@@ -25,7 +25,7 @@ products.forEach(
                 child.children[2].innerHTML="244$";
                  child.children[2].dataset.number="244"
                 child.children[3].children[0].innerHTML="349$";
-                parent.children[1].children[0].src="../images/figure 1.jpg"
+                parent.children[1].children[0].src="images/figure 1.jpg"
                 break
 
             case "two":
@@ -34,7 +34,7 @@ products.forEach(
                 child.children[2].innerHTML="230$";
                  child.children[2].dataset.number="230"
                 child.children[3].children[0].innerHTML="329$";
-                parent.children[1].children[0].src="../images/figure 2.jpg"
+                parent.children[1].children[0].src="images/figure 2.jpg"
                 break 
 
             case "three":
@@ -43,7 +43,7 @@ products.forEach(
               child.children[2].innerHTML="384$";
                child.children[2].dataset.number="384"
               child.children[3].children[0].innerHTML="549$";
-              parent.children[1].children[0].src="../images/figure 3.jpg"
+              parent.children[1].children[0].src="images/figure 3.jpg"
               break 
             
             case "four":
@@ -52,7 +52,7 @@ products.forEach(
               child.children[2].innerHTML="244$";
                child.children[2].dataset.number="244"
               child.children[3].children[0].innerHTML="349$";
-              parent.children[1].children[0].src="../images/figure 4.jpg"
+              parent.children[1].children[0].src="images/figure 4.jpg"
               break 
 
             case "five":
@@ -61,7 +61,7 @@ products.forEach(
               child.children[2].innerHTML="209$";
                child.children[2].dataset.number="209"
               child.children[3].children[0].innerHTML="299$";
-              parent.children[1].children[0].src="../images/figure 5.jpeg"
+              parent.children[1].children[0].src="images/figure 5.jpeg"
               break 
 
             case "six":
@@ -70,7 +70,7 @@ products.forEach(
               child.children[2].innerHTML="174$";
                child.children[2].dataset.number="174"
               child.children[3].children[0].innerHTML="249$";
-              parent.children[1].children[0].src="../images/figure 6.jpg"
+              parent.children[1].children[0].src="images/figure 6.jpg"
               break 
             
             case "seven":
@@ -79,7 +79,7 @@ products.forEach(
               child.children[2].innerHTML="210$";
               child.children[2].dataset.number="210"
               child.children[3].children[0].innerHTML="300$";
-              parent.children[1].children[0].src="../images/figure 7.webp"
+              parent.children[1].children[0].src="images/figure 7.webp"
               break 
 
             case "eight":
@@ -88,7 +88,7 @@ products.forEach(
                 child.children[2].innerHTML="180$";
                 child.children[2].dataset.number="180"
                 child.children[3].children[0].innerHTML="250$";
-                parent.children[1].children[0].src="../images/figure 8.jpg"
+                parent.children[1].children[0].src="images/figure 8.jpg"
                 break 
 
             case "nine":
@@ -97,7 +97,7 @@ products.forEach(
                 child.children[2].innerHTML="200$";
                 child.children[2].dataset.number="200"
                 child.children[3].children[0].innerHTML="270$";
-                parent.children[1].children[0].src="../images/figure 9.webp"
+                parent.children[1].children[0].src="images/figure 9.webp"
                 break 
 
             case "ten":
@@ -106,7 +106,7 @@ products.forEach(
               child.children[2].innerHTML="90$";
               child.children[2].dataset.number="90"
               child.children[3].children[0].innerHTML="130$";
-              parent.children[1].children[0].src="../images/figure 10.jpg"
+              parent.children[1].children[0].src="images/figure 10.jpg"
               break 
 
             default:
