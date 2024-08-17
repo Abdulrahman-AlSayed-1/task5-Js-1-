@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <title>Task5(Js-1)</title>
+
+    <style>
+ .fira-mono-medium {
+  font-family: "Fira Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  }
+  .shadow-custom{
+    box-shadow: 2px 7px 12px 3px rgba(0, 0, 0, 0.8);
+  } 
+  a{transition: all 0.3s;}
+  a:hover
+  {
+    font-size: larger;
+  }
+ 
+    </style>
+
+</head>
+<body class="fira-mono-medium" style="overflow-x: hidden;">
+
+  <main>
+    <div class=" col-9 col-sm-8 col-md-6 col-lg-4  position-absolute top-50 start-50 translate-middle rounded bg-danger p-3 d-flex flex-column align-items-center">
+      <h1 class="display-6 fw-bold text-center ">Welcome </h1>
+      <p>Welcome to our Headphones store</p>
+       <h6 style="max-width: 200px;" class="mt-4">You can check the headphones in the <wbr> list to add them to your cart from here</h6>
+       <i class="fas fa-arrow-circle-down fa-3x mt-4"></i>
+       <button class="btn btn-dark mt-4 shadow-custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">Show List</button>
+    </div>
+  </main>  
+    
+  <list>
+    <!-- offcanavas -->
+    <div class="offcanvas offcanvas-start" id="demo" data-bs-theme="dark">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-capitalize">list of headphones</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <a href="#" id="one"    class="text-decoration-none text-light d-block my-3">Sony WH-1000XM5</a>
+          <a href="#" id="two"    class="text-decoration-none text-light d-block my-3">Bose QuietComfort 45</a>
+          <a href="#" id="three"  class="text-decoration-none text-light d-block my-3">Apple AirPods Max</a>
+          <a href="#" id="four"   class="text-decoration-none text-light d-block my-3">Sennheiser Momentum 4</a>
+          <a href="#" id="five"   class="text-decoration-none text-light d-block my-3">Bowers & Wilkins PX7</a>
+          <a href="#" id="six"    class="text-decoration-none text-light d-block my-3">Jabra Elite 85h</a>
+          <a href="#" id="seven"  class="text-decoration-none text-light d-block my-3">Bang & Olufsen Beoplay H95</a>
+          <a href="#" id="eight"  class="text-decoration-none text-light d-block my-3">AKG N700NC M2</a>
+          <a href="#" id="nine"   class="text-decoration-none text-light d-block my-3">Microsoft Surface Headphones 2</a>
+          <a href="#" id="ten"    class="text-decoration-none text-light d-block my-3">Plantronics BackBeat Go 810</a>
+          
+          <hr>
+
+         <cart>
+          <h5 class="offcanvas-title text-capitalize">cart</h5>
+          <div class="pt-5" id="purchases"></div>
+          <input id= "total-price" type="hidden" class="mt-5 btn btn-dark shadow-custom rounded "  value="Total Price" >
+         </cart>
+        </div>
+
+      </div>
+    </list>
+
+    <info class="container-fluid d-flex justify-content-center align-items-center d-none"  style="height: 100vh;" >
+      <div id="parent" class=" row rounded overflow-hidden col-9 col-sm-8 col-md-6 col-lg-6" style="height:90%">
+        <div id="child" class="p-3 d-flex flex-column bg-light col-12 col-lg-6  order-2 order-lg-1 h-50 ">
+            <h3 class="col-12"></h3>
+            <hr>
+            <h3 data-number="" class="fw-bold mb-2 col-12"></h3>
+           <div class="discount">
+            <span class="text-secondary col-6"><del></del></span> 
+            <span class="badge bg-danger col-2 ">-30%</span>
+           </div>
+            <div class="d-flex justify-content-between mt-auto">
+              <input id="buy-btn"  class="btn  btn-dark text-light shadow-custom rounded"  type="button" value="Add to Cart" >
+              <button  class="btn btn-dark shadow-custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">Return To List</button>
+            </div>
+        </div>
+        <div class=" col-12 col-lg-6 overflow-hidden order-lg-2 order-1 h-50 p-0 " >
+         <img class="h-100 w-100" src="" alt="">
+       </div>
+      </div>
+
+    </info>
+
+    <total-price class="container-fluid d-flex justify-content-center align-items-center d-none "  style=" height: 100vh;">
+
+      <div class="rounded bg-dark text-light p-3 d-flex flex-column justify-content-between align-items-center col-9 col-lg-4 h-50 ">
+        <h2 style="font-variant: small-caps;">total price</h2>
+        <div class="  rounded-circle border border-light border-3 text-center" style="height: 150px; width: 150px;" >
+        <h1 class="display-6 " style="line-height: 150px;"></h1>
+        </div>
+        <h6>Thank you for choosing our store</h6>
+      </div>
+    
+    </total-price>
+
+
+
+
+
+   <script src="js/script.js"></script>
+   <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+   <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>

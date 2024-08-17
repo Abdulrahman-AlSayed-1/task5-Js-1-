@@ -1,0 +1,24 @@
+body
+{
+    background-image: url(../images/wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media(min-width:992px)     /* large screen view like laptop*/
+{
+    #child , #child+ div
+    {
+        margin-top: 180px;
+    }
+    #child
+    {
+        border-radius: 4px 0 0 4px;
+    }
+
+    #child+ div
+    {
+        border-radius: 0 4px 4px 0;
+    }
+}
