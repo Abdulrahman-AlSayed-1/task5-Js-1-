@@ -10,7 +10,7 @@ body
 {
     #parent
     {
-        height: 70%;
+        height: 80%;
     }
     #child,#child+div
     {
@@ -23,7 +23,7 @@ body
 
     info .btn
     {
-        font-size: small !important;
+        font-size: smaller ;
     }
 
 
