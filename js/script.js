@@ -24,7 +24,7 @@ products.forEach(
                 child.children[0].innerHTML="Sony WH-1000XM5";
                 child.children[2].innerHTML="244$";
                  child.children[2].dataset.number="244"
-                child.children[3].children[0].innerHTML="349$";
+                child.children[3].children[0].children[0].innerHTML="349$";
                 parent.children[1].children[0].src="images/figure-1.webp"
                 break
 
@@ -33,7 +33,7 @@ products.forEach(
                 child.children[0].innerHTML="Bose QuietComfort 45";
                 child.children[2].innerHTML="230$";
                  child.children[2].dataset.number="230"
-                child.children[3].children[0].innerHTML="329$";
+                child.children[3].children[0].children[0].innerHTML="329$";
                 parent.children[1].children[0].src="images/figure-2.jpg"
                 break 
 
@@ -42,7 +42,7 @@ products.forEach(
               child.children[0].innerHTML="Apple AirPods Max";
               child.children[2].innerHTML="384$";
                child.children[2].dataset.number="384"
-              child.children[3].children[0].innerHTML="549$";
+              child.children[3].children[0].children[0].innerHTML="549$";
               parent.children[1].children[0].src="images/figure-3.jpg"
               break 
             
@@ -51,7 +51,7 @@ products.forEach(
               child.children[0].innerHTML="Sennheiser Momentum 4";
               child.children[2].innerHTML="244$";
                child.children[2].dataset.number="244"
-              child.children[3].children[0].innerHTML="349$";
+              child.children[3].children[0].children[0].innerHTML="349$";
               parent.children[1].children[0].src="images/figure-4.jpg"
               break 
 
@@ -60,7 +60,7 @@ products.forEach(
               child.children[0].innerHTML="Bowers & Wilkins PX7";
               child.children[2].innerHTML="209$";
                child.children[2].dataset.number="209"
-              child.children[3].children[0].innerHTML="299$";
+              child.children[3].children[0].children[0].innerHTML="299$";
               parent.children[1].children[0].src="images/figure-5.webp"
               break 
 
@@ -69,7 +69,7 @@ products.forEach(
               child.children[0].innerHTML="Jabra Elite 85h";
               child.children[2].innerHTML="174$";
                child.children[2].dataset.number="174"
-              child.children[3].children[0].innerHTML="249$";
+              child.children[3].children[0].children[0].innerHTML="249$";
               parent.children[1].children[0].src="images/figure-6.jpg"
               break 
             
@@ -78,7 +78,7 @@ products.forEach(
               child.children[0].innerHTML="Bang & Olufsen Beoplay H95";
               child.children[2].innerHTML="210$";
               child.children[2].dataset.number="210"
-              child.children[3].children[0].innerHTML="300$";
+              child.children[3].children[0].children[0].innerHTML="300$";
               parent.children[1].children[0].src="images/figure-7.webp"
               break 
 
@@ -87,7 +87,7 @@ products.forEach(
                 child.children[0].innerHTML="AKG N700NC M2";
                 child.children[2].innerHTML="180$";
                 child.children[2].dataset.number="180"
-                child.children[3].children[0].innerHTML="250$";
+                child.children[3].children[0].children[0].innerHTML="250$";
                 parent.children[1].children[0].src="images/figure-8.jpg"
                 break 
 
@@ -96,7 +96,7 @@ products.forEach(
                 child.children[0].innerHTML="Microsoft Surface Headphones 2";
                 child.children[2].innerHTML="200$";
                 child.children[2].dataset.number="200"
-                child.children[3].children[0].innerHTML="270$";
+                child.children[3].children[0].children[0].innerHTML="270$";
                 parent.children[1].children[0].src="images/figure-9.webp"
                 break 
 
@@ -105,7 +105,7 @@ products.forEach(
               child.children[0].innerHTML="Plantronics BackBeat Go 810";
               child.children[2].innerHTML="90$";
               child.children[2].dataset.number="90"
-              child.children[3].children[0].innerHTML="130$";
+              child.children[3].children[0].children[0].innerHTML="130$";
               parent.children[1].children[0].src="images/figure-10.jpg"
               break 
 
