@@ -32,18 +32,18 @@
 <body class="fira-mono-medium" style="overflow-x: hidden;">
 
   <main>
-    <div class=" col-9 col-sm-8 col-md-6 col-lg-4  position-absolute top-50 start-50 translate-middle rounded bg-danger p-3 d-flex flex-column align-items-center">
-      <h1 class="display-6 fw-bold text-center ">Welcome </h1>
-      <p>Welcome to our Headphones store</p>
-       <h6 style="max-width: 200px;" class="mt-4">You can check the headphones in the <wbr> list to add them to your cart from here</h6>
+    <div class=" col-10 col-sm-8 col-md-6 col-lg-4  position-absolute top-50 start-50 translate-middle rounded bg-danger p-3 d-flex flex-column align-items-center">
+      <h1 class="display-6 fw-bold ">Welcome </h1>
+      <p class="col-12 text-center ">Welcome to our Headphones store</p>
+       <h6 style="max-width: 200px;" class="mt-4 text-center col-12">You can check the headphones in the <wbr> list to add them to your cart from here</h6>
        <i class="fas fa-arrow-circle-down fa-3x mt-4"></i>
-       <button class="btn btn-dark mt-4 shadow-custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">Show List</button>
+       <button class="btn btn-dark mt-4 shadow-custom col-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">Show List</button>
     </div>
   </main>  
     
   <list>
     <!-- offcanavas -->
-    <div class="offcanvas offcanvas-start" id="demo" data-bs-theme="dark">
+    <div class="offcanvas offcanvas-start " id="demo" data-bs-theme="dark">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title text-capitalize">list of headphones</h5>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
@@ -73,22 +73,23 @@
     </list>
 
     <info class="container-fluid d-flex justify-content-center align-items-center d-none"  style="height: 100vh;" >
-      <div id="parent" class=" row rounded overflow-hidden col-9 col-sm-8 col-md-6 col-lg-6" style="height:90%">
-        <div id="child" class="p-3 d-flex flex-column bg-light col-12 col-lg-6  order-2 order-lg-1 h-50 ">
+      <div id="parent" class=" row rounded overflow-hidden col-11 col-sm-8 col-md-6 col-lg-6 " >
+        <div id="child" class="p-3 d-flex flex-column bg-light col-12 col-lg-6 order-2 order-lg-1  ">
             <h3 class="col-12"></h3>
             <hr>
             <h3 data-number="" class="fw-bold mb-2 col-12"></h3>
            <div class="discount">
-            <span class="text-secondary col-6"><del></del></span> 
+            <span class="text-secondary col-2"><del></del></span> 
             <span class="badge bg-danger col-2 ">-30%</span>
            </div>
-            <div class="d-flex justify-content-between mt-auto">
-              <input id="buy-btn"  class="btn  btn-dark text-light shadow-custom rounded"  type="button" value="Add to Cart" >
-              <button  class="btn btn-dark shadow-custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">Return To List</button>
+            <div class="d-flex justify-content-between mt-auto col-12">
+              <input id="buy-btn"  class="btn  btn-dark text-light shadow-custom rounded col-5"  type="button" value="Add to Cart" >
+              <button  class="btn btn-dark shadow-custom col-6" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">Return To List</button>
             </div>
         </div>
-        <div class=" col-12 col-lg-6 overflow-hidden order-lg-2 order-1 h-50 p-0 " >
-         <img class="h-100 w-100" src="" alt="">
+        <div class=" col-12 col-lg-6  order-lg-2 order-1  p-0 " >
+         <img class="w-100 h-100" src="" alt="">
+          
        </div>
       </div>
 
@@ -96,7 +97,7 @@
 
     <total-price class="container-fluid d-flex justify-content-center align-items-center d-none "  style=" height: 100vh;">
 
-      <div class="rounded bg-dark text-light p-3 d-flex flex-column justify-content-between align-items-center col-9 col-lg-4 h-50 ">
+      <div class="rounded bg-dark text-light p-3 d-flex flex-column justify-content-between align-items-center col-10 col-lg-4 h-50 ">
         <h2 style="font-variant: small-caps;">total price</h2>
         <div class="  rounded-circle border border-light border-3 text-center" style="height: 150px; width: 150px;" >
         <h1 class="display-6 " style="line-height: 150px;"></h1>

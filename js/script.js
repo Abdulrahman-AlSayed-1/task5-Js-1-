@@ -25,7 +25,7 @@ products.forEach(
                 child.children[2].innerHTML="244$";
                  child.children[2].dataset.number="244"
                 child.children[3].children[0].innerHTML="349$";
-                parent.children[1].children[0].src="images/figure-1jpg"
+                parent.children[1].children[0].src="images/figure-1.webp"
                 break
 
             case "two":
@@ -61,7 +61,7 @@ products.forEach(
               child.children[2].innerHTML="209$";
                child.children[2].dataset.number="209"
               child.children[3].children[0].innerHTML="299$";
-              parent.children[1].children[0].src="images/figure-5.jpeg"
+              parent.children[1].children[0].src="images/figure-5.webp"
               break 
 
             case "six":
@@ -106,7 +106,7 @@ products.forEach(
               child.children[2].innerHTML="90$";
               child.children[2].dataset.number="90"
               child.children[3].children[0].innerHTML="130$";
-              parent.children[1].children[0].children[0].src="images/figure-10.jpg"
+              parent.children[1].children[0].src="images/figure-10.jpg"
               break 
 
             default:

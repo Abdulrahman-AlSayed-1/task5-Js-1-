@@ -6,11 +6,31 @@ body
     background-size: cover;
     background-attachment: fixed;
 }
+
+@media(max-width:768px)     /* mobile view */        
+{
+    #parent
+    {
+        height: 80%;
+    }
+    #child,#child+div
+    {
+        height: 50%;
+    }
+    .offcanvas
+    {
+        width:75% !important;
+    }
+
+
+} 
+
+
 @media(min-width:992px)     /* large screen view like laptop*/
 {
-    #child , #child+ div
+    #child,#child+div
     {
-        margin-top: 180px;
+        height: 100%;
     }
     #child
     {
@@ -21,4 +41,12 @@ body
     {
         border-radius: 0 4px 4px 0;
     }
+    #parent
+    {
+        height: 50%;
+    }
+       
 }
+     
+
+
