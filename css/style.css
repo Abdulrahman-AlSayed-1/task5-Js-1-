@@ -6,7 +6,6 @@ body
     background-size: cover;
     background-attachment: fixed;
 }
-
 @media(max-width:768px)     /* mobile view */        
 {
     #parent
@@ -20,6 +19,11 @@ body
     .offcanvas
     {
         width:75% !important;
+    }
+
+    info .btn
+    {
+        font-size: small;
     }
 
 
