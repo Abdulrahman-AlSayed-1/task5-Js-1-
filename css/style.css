@@ -10,7 +10,7 @@ body
 {
     #parent
     {
-        height: 80%;
+        height: 70%;
     }
     #child,#child+div
     {
